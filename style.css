@@ -164,3 +164,9 @@ footer a {
   margin: 0 5px;
   text-decoration: none;
 }
+.icon-inline {
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
