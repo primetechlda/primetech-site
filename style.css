@@ -131,16 +131,24 @@ section {
 }
 
 /* Ícones sociais */
-.social-icon {
-  height: 20px;
-  width: 20px;
-  margin: 0 5px;
-  vertical-align: middle;
+footer p img.social-icon {
+  height: 18px;
+  width: 18px;
   object-fit: contain;
+  margin: 0 6px;
+  vertical-align: middle;
 }
 
-.social-icon:hover {
-  transform: scale(1.1);
+footer p.icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer a img.social-icon {
+  height: 22px;
+  width: 22px;
 }
 
 /* Rodapé */
