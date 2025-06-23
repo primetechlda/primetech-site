@@ -58,6 +58,11 @@ header p {
   font-weight: bold;
   display: inline-block;
   margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5b;
 }
 
 /* Seção Produtos */
@@ -95,6 +100,11 @@ header p {
   border-radius: 20px;
   text-decoration: none;
   margin-top: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.comprar:hover {
+  background: #00695c;
 }
 
 /* Seções gerais */
@@ -118,6 +128,19 @@ section {
   margin-top: 1rem;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Ícones sociais */
+.social-icon {
+  height: 24px;
+  width: 24px;
+  margin: 0 5px;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
 }
 
 /* Rodapé */
